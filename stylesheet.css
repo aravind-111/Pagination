@@ -2,19 +2,23 @@ body {
   justify-content: center;
 }
 
+.table_head,
 .table {
-  /*   border-collapse: collapse; */
   width: 40rem;
-  /*   border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.table td,
+.table_head th,
 table {
-  border: 2px, solid black;
+  border-collapse: collapse;
+  text-align: center;
+  border: 2px solid black;
+  border-spacing: 0px;
 }
 
-.table_head {
-  /*   border: 2px solid black; */
-  width: 40rem;
+.pagination {
+  margin-left: 300px;
+  /* margin-right: auto; */
 }
