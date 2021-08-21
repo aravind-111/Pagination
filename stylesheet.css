@@ -1,0 +1,20 @@
+body {
+  justify-content: center;
+}
+
+.table {
+  /*   border-collapse: collapse; */
+  width: 40rem;
+  /*   border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black; */
+}
+
+table {
+  border: 2px, solid black;
+}
+
+.table_head {
+  /*   border: 2px solid black; */
+  width: 40rem;
+}
